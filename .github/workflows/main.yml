@@ -12,10 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Github Actions'
-        run: pwd
+      - name: 'Print Folder contents'
+        run: ls
 
-      - name: 'Testing Printing'
-        run: echo Menna
+     
 
   
